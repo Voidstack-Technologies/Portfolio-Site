@@ -86,7 +86,7 @@ function Contact() {
                   className="inline-block text-lg font-medium hover:text-blue-500 transition-all duration-300 hover:scale-105 transform"
                   style={{ color: '#333333', fontWeight: 500 }}
                 >
-                  +91 87587 06895
+                  +91 82386 38297
                 </a>
                 
                 {/* Status Indicator */}
