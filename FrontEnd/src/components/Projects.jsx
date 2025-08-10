@@ -5,63 +5,63 @@ const projectData = [
     id: 1,
     title: 'E-commerce Platform',
     description: 'A next-generation e-commerce solution with seamless navigation, optimized performance, and a delightful shopping experience.',
-    image: 'ProjectMockups/2.png',
+    image: '/ProjectMockups/2.png',
     link: 'https://www.google.com'
   },
   {
     id: 2,
     title: 'Restaurant Website',
     description: 'An elegant and fully responsive restaurant website with online reservations, an interactive menu, and immersive imagery.',
-    image: 'ProjectMockups/3.png',
+    image: '/ProjectMockups/3.png',
     link: 'https://www.example.com'
   },
   {
     id: 3,
     title: 'Portfolio Website',
     description: 'A creative showcase for a professional photographer featuring dynamic galleries and smooth scrolling animations.',
-    image: 'ProjectMockups/4.png',
+    image: '/ProjectMockups/4.png',
     link: 'https://example.com'
   },
   {
     id: 4,
     title: 'Corporate Dashboard',
     description: 'A professional data visualization dashboard with real-time analytics, custom filters, and clean UI components.',
-    image: 'ProjectMockups/5.png',
+    image: '/ProjectMockups/5.png',
     link: 'https://example.com'
   },
   {
     id: 5,
     title: 'Mobile App Landing',
     description: 'A high-conversion landing page tailored for mobile app launches with animated mockups and CTA-driven design.',
-    image: 'ProjectMockups/6.png',
+    image: '/ProjectMockups/6.png',
     link: 'https://example.com'
   },
   {
     id: 6,
     title: 'Healthcare Platform',
     description: 'A user-friendly healthcare platform with secure appointment booking, patient dashboards, and telemedicine integration.',
-    image: 'ProjectMockups/7.png',
+    image: '/ProjectMockups/7.png',
     link: 'https://example.com'
   },
   {
     id: 7,
     title: 'Healthcare Platform',
     description: 'A user-friendly healthcare platform with secure appointment booking, patient dashboards, and telemedicine integration.',
-    image: 'ProjectMockups/8.png',
+    image: '/ProjectMockups/8.png',
     link: 'https://example.com'
   },
   {
     id: 8,
     title: 'Healthcare Platform',
     description: 'A user-friendly healthcare platform with secure appointment booking, patient dashboards, and telemedicine integration.',
-    image: 'ProjectMockups/9.png',
+    image: '/ProjectMockups/9.png',
     link: 'https://example.com'
   },
   {
     id: 9,
     title: 'Healthcare Platform',
     description: 'A user-friendly healthcare platform with secure appointment booking, patient dashboards, and telemedicine integration.',
-    image: 'ProjectMockups/10.png',
+    image: '/ProjectMockups/10.png',
     link: 'https://example.com'
   },
 ];

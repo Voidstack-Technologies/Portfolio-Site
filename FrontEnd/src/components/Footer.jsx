@@ -55,7 +55,7 @@ function Footer() {
               <div className="relative bg-white/85 backdrop-blur-xl rounded-3xl p-8 border border-white/10 shadow-2xl transform group-hover:shadow-3xl transition-all duration-700">
                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#3D53A3]/20 via-transparent to-[#40BEEE]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
                 <img
-                  src="CompaniesLogo/logo1.png"
+                  src="/CompaniesLogo/logo1.png"
                   alt="VoidStack Logo"
                   className="h-30 w-60 object-contain mx-auto transform transition-all duration-700 group-hover:scale-110 relative z-10"
                   style={{
