@@ -14,7 +14,7 @@ function Header({ scrollToSection }) {
           >
             <div className="relative overflow-hidden rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-500">
               <img
-                src="src/assets/CompaniesLogo/logo1.png"
+                src="CompaniesLogo/logo1.png"
                 alt="VoidStack Logo"
                 className="h-18 w-40 object-contain transform transition-all duration-500"
                 style={{
