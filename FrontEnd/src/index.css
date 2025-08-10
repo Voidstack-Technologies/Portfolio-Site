@@ -1,0 +1,59 @@
+@import "tailwindcss"; 
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-weight: 700; /* Poppins Bold */
+}
+
+h2, h3 {
+  font-weight: 500; /* Poppins Medium */
+}
+
+p {
+  font-weight: 400; /* Poppins Regular */
+}
+
+a {
+  text-decoration: none;
+  color: #40BEEE;
+}
+
+a:hover {
+  color: #3D53A3;
+}
+
+/* Custom floating animations — three subtle variants to reuse */
+@keyframes float-0 {
+  from { transform: translate(-50%, -50%) translateY(-6px) scale(1); }
+  to   { transform: translate(-50%, -50%) translateY(10px) scale(1.05); }
+}
+@keyframes float-1 {
+  from { transform: translate(-50%, -50%) translateY(-8px) scale(0.98); }
+  to   { transform: translate(-50%, -50%) translateY(12px) scale(1.02); }
+}
+@keyframes float-2 {
+  from { transform: translate(-50%, -50%) translateY(-4px) scale(1); }
+  to   { transform: translate(-50%, -50%) translateY(8px) scale(1.03); }
+}
+
+/* small variety utility names for particles */
+[class^="float-"] { will-change: transform, opacity; }
+
+/* animated underline pulse */
+@keyframes underline {
+  0% { opacity: .75; transform: scaleX(.95); }
+  50% { opacity: 1; transform: scaleX(1.02); }
+  100% { opacity: .75; transform: scaleX(.95); }
+}
+.animate-underline { animation: underline 2400ms ease-in-out infinite; transform-origin: center; }
+
+/* Prefers reduced motion — turn things off for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
+}
