@@ -54,8 +54,8 @@ const logoData = [
   { id: 50, category: 'Cards & Covers', image: '/Logo&Designs/cards&covers/cover-3.png' },
   { id: 51, category: 'UI/UX Designs', image: '/Logo&Designs/UIUX_Designs/d1.png', link: 'https://www.figma.com/proto/ni6bJvj3GW5c6TIQAmaiBT/U-Transport-Mockup?node-id=0-1&t=2xo2S31zhs3YBREd-1' },
   { id: 52, category: 'UI/UX Designs', image: '/Logo&Designs/UIUX_Designs/d2.png', link: 'https://www.figma.com/proto/ddBnDxHPBCobFIEZ4FaNPo/YourCart-Mockup?node-id=0-1&t=YeAoEptwbnYjQWBI-1' },
-  { id: 53, category: 'UI/UX Designs', image: '/Logo&Designs/UIUX_Designs/d3.png', link: '' },
-  { id: 54, category: 'UI/UX Designs', image: '/Logo&Designs/UIUX_Designs/d4.png', link: '' },
+  { id: 53, category: 'UI/UX Designs', image: '/Logo&Designs/UIUX_Designs/d3.png', link: 'https://www.figma.com/proto/qpjB3cOlVswGpncfIejEL3/NFT-Marketplace?node-id=0-1&t=Lep4mt7eR2KY36kj-1' },
+  { id: 54, category: 'UI/UX Designs', image: '/Logo&Designs/UIUX_Designs/d4.png', link: 'https://www.figma.com/proto/2UL3Xht7eU82zPBX58RXMV/LLP?node-id=3-25&t=DhdkxqugwsXZe4yC-1' },
   { id: 55, category: 'UI/UX Designs', image: '/Logo&Designs/UIUX_Designs/d5.png', link: '' },
 ];
 
