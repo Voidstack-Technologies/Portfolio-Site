@@ -50,15 +50,8 @@ const projectData = [
     image: '/ProjectMockups/8.png',
     link: 'https://www.judesbarbershop.com/'
   },
-  {
-    id: 8,
-    title: 'CG School',
-    description: 'A creative showcase for a professional photographer featuring dynamic galleries and smooth scrolling animations.',
-    image: '/ProjectMockups/4.png',
-    link: 'https://cgschool.in/EngDefault.aspx'
-  },
   { 
-    id: 9,
+    id: 8,
     title: 'Los Angeles Public Library',
     description: 'A user-friendly healthcare platform with secure appointment booking, patient dashboards, and telemedicine integration.',
     image: '/ProjectMockups/7.png',
