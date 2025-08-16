@@ -132,8 +132,8 @@ function Logos() {
               key={category}
               onClick={() => handleCategoryChange(category)}
               className={`relative px-8 py-3 rounded-full font-medium transition-all duration-500 transform hover:scale-105 shadow-lg ${activeCategory === category
-                  ? "text-white"
-                  : "text-gray-700 bg-white border border-gray-200 hover:border-blue-300"
+                ? "text-white"
+                : "text-gray-700 bg-white border border-gray-200 hover:border-blue-300"
                 }`}
               style={{
                 backgroundColor: activeCategory === category ? "#3D53A3" : undefined,
@@ -157,42 +157,55 @@ function Logos() {
 
         {/* Portfolio Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          {currentItems.map((item, index) => (
-            <a
-              key={item.id}
-              href={item.link || ''}
-              target={item.link ? "_blank" : undefined}
-              rel={item.link ? "noopener noreferrer" : undefined}
-              className={`group cursor-pointer transform hover:scale-[1.03] transition-all duration-500 ${item.link ? 'block' : 'no-underline'}`}
-              style={{ animationDelay: `${index * 100}ms` }}
-              aria-label={item.link ? `Visit ${item.category} design ${item.id} at ${item.link}` : `View ${item.category} design ${item.id}`}
-            >
-              <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl bg-white backdrop-blur-sm border border-gray-100">
-                {/* Image */}
-                <div className="relative overflow-hidden rounded-2xl">
-                  <img
-                    src={item.image}
-                    alt={item.link ? `UI/UX Design ${item.id} linking to ${item.link}` : `Design ${item.id}`}
-                    className="w-full h-64 object-contain transition-all duration-500 group-hover:scale-110"
-                  />
+          {currentItems.map((item, index) => {
+            const Wrapper = item.link ? "a" : "div";
 
-                  {/* Overlay Info */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-90 transition-all duration-500 flex items-end p-4 rounded-2xl">
-                    <div className="w-full flex justify-between items-center">
-                      <span className="px-2 py-1 bg-white/20 backdrop-blur-md rounded-full text-white text-sm font-medium">
-                        {item.category}
-                      </span>
-                      {item.link && (
-                        <div className="w-8 h-8 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center">
-                          <span className="w-3 h-3 border-2 border-white rounded-full animate-spin border-t-transparent"></span>
-                        </div>
-                      )}
+            return (
+              <Wrapper
+                key={item.id}
+                href={item.link || undefined}
+                target={item.link ? "_blank" : undefined}
+                rel={item.link ? "noopener noreferrer" : undefined}
+                className={`group cursor-pointer transform hover:scale-[1.03] transition-all duration-500 ${item.link ? "block" : ""
+                  }`}
+                style={{ animationDelay: `${index * 100}ms` }}
+                aria-label={
+                  item.link
+                    ? `Visit ${item.category} design ${item.id} at ${item.link}`
+                    : `View ${item.category} design ${item.id}`
+                }
+              >
+                <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-xl bg-white backdrop-blur-sm border border-gray-100">
+                  {/* Image */}
+                  <div className="relative overflow-hidden rounded-2xl">
+                    <img
+                      src={item.image}
+                      alt={
+                        item.link
+                          ? `UI/UX Design ${item.id} linking to ${item.link}`
+                          : `Design ${item.id}`
+                      }
+                      className="w-full h-64 object-contain transition-all duration-500 group-hover:scale-110"
+                    />
+
+                    {/* Overlay Info */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-90 transition-all duration-500 flex items-end p-4 rounded-2xl">
+                      <div className="w-full flex justify-between items-center">
+                        <span className="px-2 py-1 bg-white/20 backdrop-blur-md rounded-full text-white text-sm font-medium">
+                          {item.category}
+                        </span>
+                        {item.link && (
+                          <div className="w-8 h-8 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center">
+                            <span className="w-3 h-3 border-2 border-white rounded-full animate-spin border-t-transparent"></span>
+                          </div>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
-          ))}
+              </Wrapper>
+            );
+          })}
         </div>
 
         {/* Pagination */}
@@ -221,8 +234,8 @@ function Logos() {
                   key={pageNumber}
                   onClick={() => handlePageChange(pageNumber)}
                   className={`w-12 h-12 rounded-full font-semibold transition-transform hover:scale-110 shadow-md ${currentPage === pageNumber
-                      ? "bg-gradient-to-br from-blue-700 to-blue-500 text-white"
-                      : "bg-white text-gray-700 border border-gray-200 hover:border-blue-300"
+                    ? "bg-gradient-to-br from-blue-700 to-blue-500 text-white"
+                    : "bg-white text-gray-700 border border-gray-200 hover:border-blue-300"
                     }`}
                 >
                   {pageNumber}
