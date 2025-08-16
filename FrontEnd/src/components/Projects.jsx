@@ -4,56 +4,49 @@ const projectData = [
   {
     id: 1,
     title: 'Fluidra',
-    description: 'A next-generation e-commerce solution with seamless navigation, optimized performance, and a delightful shopping experience.',
+    description: 'Fluidra’s enterprise website uses AEM on AWS with tools like Cookiebot, Imperva, Salesforce, MailChimp, and Lengow, ensuring scalability, security, compliance, marketing automation, catalog syndication, and consistent global digital engagement.',
     image: '/ProjectMockups/2.png',
     link: 'https://www.fluidra.com'
   },
   {
     id: 2,
     title: 'Pool Supply Unlimited',
-    description: 'An elegant and fully responsive restaurant website with online reservations, an interactive menu, and immersive imagery.',
+    description: 'Pool Supply Unlimited runs on Custom Cart with AfterShip for tracking. Past SEO efforts boosted organic traffic 193%, but the site remains on its existing platform without migrating.',
     image: '/ProjectMockups/3.png',
     link: 'https://www.poolsupplyunlimited.com/pool'
   },
   {
     id: 3,
     title: 'Chop Barbershop',
-    description: 'A user-friendly healthcare platform with secure appointment booking, patient dashboards, and telemedicine integration.',
+    description: 'Chop Barbershop’s site blends storytelling and simple navigation, built on a CMS and integrated with Squire for online booking, payments, and management through links and a branded mobile app.',
     image: '/ProjectMockups/9.png',
     link: 'https://www.chopbarbershop.com/'
   },
   {
     id: 4,
-    title: 'South Dakota School of Mines & Technology',
-    description: 'A professional data visualization dashboard with real-time analytics, custom filters, and clean UI components.',
-    image: '/ProjectMockups/5.png',
-    link: 'https://www.sdsmt.edu/index.html'
-  },
-  {
-    id: 5,
     title: 'Novo Nordisk',
-    description: 'A high-conversion landing page tailored for mobile app launches with animated mockups and CTA-driven design.',
+    description: 'Novo Nordisk employs a complex cloud-driven architecture spanning Vue.js, AWS, Azure, Databricks, Kubernetes, Terraform tools, AI/ML platforms, Airflow, PowerBI, and VMware—supporting analytics, automation, data engineering, and enterprise-grade digital infrastructure.',
     image: '/ProjectMockups/6.png',
     link: 'https://www.novonordisk.com/'
   },
   {
-   id: 6,
+   id: 5,
     title: 'Oleana Restaurant',
-    description: 'A user-friendly healthcare platform with secure appointment booking, patient dashboards, and telemedicine integration.',
+    description: 'Oleana’s website, built on Squarespace, emphasizes visual storytelling and content-driven design while enabling seamless gift card purchases and e-commerce transactions through Squarespace’s integrated commerce features.',
     image: '/ProjectMockups/10.png',
     link: 'https://www.oleanarestaurant.com/' 
   },
   {
-    id: 7,
+    id: 6,
     title: 'Jude\'s Barbershop',
-    description: 'A user-friendly healthcare platform with secure appointment booking, patient dashboards, and telemedicine integration.',
+    description: 'Jude’s Barbershop’s website prioritizes brand customization, likely WordPress-powered with PostX plugin for content layouts. It provides business listings, service information, and a clean customer experience over template-restricted CMS structures.',
     image: '/ProjectMockups/8.png',
     link: 'https://www.judesbarbershop.com/'
   },
   { 
-    id: 8,
+    id: 7,
     title: 'Los Angeles Public Library',
-    description: 'A user-friendly healthcare platform with secure appointment booking, patient dashboards, and telemedicine integration.',
+    description: 'LAPL relies on CARL Integrated Library System since the 1990s, enhanced by analytics, social, payment tools, and third-party services like Libby, Kanopy, LinkedIn Learning, providing ebooks, streaming, courses, and publishing.',
     image: '/ProjectMockups/7.png',
     link: 'https://www.lapl.org/'
   },
